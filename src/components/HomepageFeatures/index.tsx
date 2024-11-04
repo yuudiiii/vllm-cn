@@ -10,27 +10,28 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "高效编程",
+    title: "高效的服务吞吐量",
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        vLLM 采用创新的内存管理与执行架构，大幅提升大模型推理的速度与效率
+        vLLM 采用独特的 PagedAttention 技术和动态批处理机制，且支持并行采样、波束搜索等多种解码算法，极大提升了服务吞吐量和响应速度
       </>
     ),
   },
   {
-    title: "实时编译",
+    title: "内存管理大师",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
-      <>支持高度并发的请求处理，vLLM 可同时服务数千用户，提升吞吐量和响应速度</>
+      <>创新的内存管理与执行架构，通过将 kv 缓存分割为若干块进行精细管理，把内存浪费控制在序列的最后一块，能实现接近最优的内存使用且支持内存共享，浪费比例低至不到 4%
+      </>
     ),
   },
   {
-    title: "灵活的迭代空间结构",
+    title: "灵活易用",
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        兼容多种深度学习框架，vLLM 易于集成到现有机器学习管道，部署更便捷
+        vLLM 可无缝集成各类模型，兼容 NVIDIA、AMD、Intel 等多种硬件平台 GPU 和 CPU，并提供简洁的接口和文档，易于上手
       </>
     ),
   },
