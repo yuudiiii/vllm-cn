@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "内存管理大师",
-    Svg: require("@site/static/img/2-Memory-Management.svg").default,
+    Svg: require("@site/static/img/2Memory-Management.svg").default,
     description: (
       <>创新的内存管理与执行架构，通过将 kv 缓存分割为若干块进行精细管理，把内存浪费控制在序列的最后一块，能实现接近最优的内存使用且支持内存共享，浪费比例低至不到 4%
       </>
