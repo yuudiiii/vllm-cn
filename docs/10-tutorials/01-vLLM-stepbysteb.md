@@ -49,11 +49,11 @@ nvcc --version
 
 例如，平台已存放了 `Qwen-1_8B-Chat` 模型。以下是绑定模型的步骤（本教程已将此模型捆绑）。
 
-![图片](/img/docs/02-toturials/model.png)
+![图片](/img/docs/02-tutorials/model.png)
 
-![图片](/img/docs/02-toturials/id.png)
+![图片](/img/docs/02-tutorials/id.png)
 
-![图片](/img/docs/02-toturials/bangding.png)
+![图片](/img/docs/02-tutorials/bangding.png)
 
 #### 方法二：从 HuggingFace下载 或者 联系客服帮忙上传平台
 
@@ -139,7 +139,7 @@ python3 -m vllm.entrypoints.openai.api_server --model /input0/Qwen-1_8B-Chat/ --
 
 成功启动后，您将看到类似以下的输出：
 
-![图片](/img/docs/02-toturials/start.png)
+![图片](/img/docs/02-tutorials/start.png)
 
 vLLM 现在可以作为实现 OpenAI API 协议的服务器进行部署，默认情况下它将在 `http://localhost:8080` 启动服务器。您可以通过 `--host` 和 `--port` 参数指定其他地址。
 
@@ -149,7 +149,7 @@ vLLM 现在可以作为实现 OpenAI API 协议的服务器进行部署，默认
 
 在工作空间右侧，API 地址将转发到本地 8080 服务，可以通过真实主机进行请求，如下图所示：
 
-![图片](/img/docs/02-toturials/api_path.png)
+![图片](/img/docs/02-tutorials/api_path.png)
 
 ### 4.1 使用 OpenAI 客户端
 
@@ -186,7 +186,7 @@ python api_infer.py
 
 您将看到如下输出结果：
 
-![图片](/img/docs/02-toturials/res_api.png)
+![图片](/img/docs/02-tutorials/res_api.png)
 
 ### 4.2 使用 Curl 命令请求
 
@@ -204,7 +204,7 @@ curl http://localhost:8080/v1/completions \
 
 您将得到如下响应：
 
-![图片](/img/docs/02-toturials/curl_res.png)
+![图片](/img/docs/02-tutorials/curl_res.png)
 
 如果您使用的是 OpenBayes 平台，输入以下命令：
 
@@ -220,6 +220,6 @@ curl https://hyperai-tutorials-****.gear-c1.openbayes.net/v1/completions \
 
 响应结果如下：
 
-![图片](/img/docs/02-toturials/curl_res_local.png)
+![图片](/img/docs/02-tutorials/curl_res_local.png)
 
 
