@@ -1,5 +1,5 @@
 ---
-title:使用 vLLM 对 Qwen2.5 推理
+title: 使用 vLLM 对 Qwen2.5 推理
 ---
 
 [<font face="黑体" color=DodgerBlue size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/wmGLO8o5IiV)
