@@ -1,5 +1,5 @@
 ---
-title：vLLM 入门教程：零基础分步指南
+title: vLLM 入门教程：零基础分步指南
 ---
 
 在本教程中，将逐步展示如何配置和运行 vLLM，提供从安装到启动的完整入门指南。
@@ -71,7 +71,7 @@ git clone https://huggingface.co/Qwen/Qwen-1_8B-Chat
 
 ### 2.2 离线推理
 
-vLLM 作为一个开源项目，可以通过其 Python API 执行 LLM 推理。以下是一个简单的示例，请将代码保存为 `offline_infer.py` 文件：
+vLLM 作为一个开源项目，可以通过其 Python API 执行 LLM 推理。以下是一个简单的示例，请将代码保存为 `offline_infer.py` 文件:
 
 ```python
 from vllm import LLM, SamplingParams
@@ -98,7 +98,7 @@ for output in outputs:
     print(f"Prompt: {prompt!r}, Generated text: {generated_text!r}")
 ```
 
-然后运行脚本：
+然后运行脚本:
 
 ```bash
 python offline_infer.py
