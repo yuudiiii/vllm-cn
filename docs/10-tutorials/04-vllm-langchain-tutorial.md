@@ -1,5 +1,5 @@
 ---
-title：将 LangChain 与 vLLM 结合使用：完整教程
+title: 将 LangChain 与 vLLM 结合使用：完整教程
 ---
 
 [<font face="黑体" color=DodgerBlue size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/ODfeIHjjXbW)
