@@ -1,5 +1,5 @@
 ---
-title：使用 vLLM 加载 AWQ 量化 Qwen2.5-3B-Instruct 进行少样本学习 (Few shot)
+title: 使用 vLLM 加载 AWQ 量化 Qwen2.5-3B-Instruct 进行少样本学习 (Few shot)
 ---
 
 [<font face="黑体" color=DodgerBlue size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/1HFARLMLJXL)
