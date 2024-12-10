@@ -61,7 +61,8 @@ pip install langchain langchain_community -q
 本教程已经安装 vllm==0.6.4，只需将 langchain 相关包安装完毕。
 
 ```
-!pip install -U langchain langchain_community -q```
+!pip install -U langchain langchain_community -q
+```
 
 
 ## 2. 配置 vLLM 以与 LangChain 配合使用
