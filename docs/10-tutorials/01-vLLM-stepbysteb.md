@@ -4,8 +4,7 @@ title: vLLM 入门教程：零基础分步指南
 
 在本教程中，将逐步展示如何配置和运行 vLLM，提供从安装到启动的完整入门指南。
 
-[<font face="黑体" color=DodgerBlue size=5>在线运行此教程</font>](https://openbayes.com/console/public/tutorials/rXxb5fZFr29)
-
+[在线运行此教程](https://openbayes.com/console/public/tutorials/rXxb5fZFr29)
 
 ## 目录
 - [一、安装 vLLM](#一、安装vLLM)
