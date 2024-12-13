@@ -4,7 +4,7 @@ title: 使用 vLLM 加载 AWQ 量化 Qwen2.5-3B-Instruct 进行少样本学习 (
 
 [在线运行此教程](https://openbayes.com/console/hyperai-tutorials/containers/1HFARLMLJXL)
 
-该教程为在 RTX4090 上使用 vLLM 加载 AWQ 量化 Qwen2.5-3B-Instruct。
+该教程为在 RTX4090 上该教程为使用 vLLM 加载 Qwen2.5-3B-Instruct-AWQ 模型进行少样本学习。
 
 - 对于每个测试问题，我们使用训练数据检索一组「支持」它的类似问题。
     - 考虑「construct」和「subject」等内容
