@@ -2,9 +2,9 @@
 title: 使用 vLLM 对 Qwen2.5 推理
 ---
 
-[<font face="黑体" color=DodgerBlue size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/wmGLO8o5IiV)
+[在线运行此教程](https://openbayes.com/console/hyperai-tutorials/containers/wmGLO8o5IiV)
 
-本教程演示了如何在短短 5 小时内推理 LLM 3B 模型。
+该教程详细展示了如何完成一个 3B 参数的大语言模型的推理任务，包括模型的加载、数据的准备、推理过程的优化，以及结果的提取和评估。
 
 ## 目录
 - [1.安装 vllm](#1.安装vllm)
