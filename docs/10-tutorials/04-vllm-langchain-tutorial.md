@@ -2,7 +2,7 @@
 title: 将 LangChain 与 vLLM 结合使用：完整教程
 ---
 
-[<font face="黑体" color=DodgerBlue size=5>在线运行此教程</font>](https://openbayes.com/console/hyperai-tutorials/containers/ODfeIHjjXbW)
+[在线运行此教程](https://openbayes.com/console/hyperai-tutorials/containers/ODfeIHjjXbW)
 
 LangChain 是提供构建复杂操作链的工具，而 vLLM 专注于高效的模型推理。两者结合应用可以简化并加速智能 LLM 应用程序的开发。
 
